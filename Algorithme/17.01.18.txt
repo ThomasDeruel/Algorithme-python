@@ -1,0 +1,43 @@
+##Table de multiplication (1 à 9) :heavy_check_mark:
+#Programme tablmulti
+var a,b :entier
+#Début
+a<-1
+tant que a<>10 faire
+	b<-1
+	tant que b<>10 faire
+		Afficher a,` multiplier par `,b,`= `,a*b, ` `
+		b++
+		FinFaire
+	instruction:aller à la ligne
+	a++
+FinFaire
+#Fin
+
+## Ajout elements dans tableau (v-1) :question:
+const n:entier
+var tab:tableau(1...n) de entier
+#Début
+Pour i<-1 à 50 Faire
+	Afficher `Saisir l'élément`,i
+	saisir<-tab
+	affihcher `tab
+Fpour
+Fin
+
+## Ajout elements dans tableau (v-2) :question:
+const n:entier
+var tab:tableau(1...n) de entier
+    i  :entier
+#Début
+i<-0
+tant que i<>50 Faire
+	Afficher `Saisir l'élément`,i
+	saisir<-tab
+	affihcher `tab
+	i++
+Fpour
+Fin
+
+
+
