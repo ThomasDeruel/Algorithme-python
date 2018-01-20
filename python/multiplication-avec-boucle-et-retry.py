@@ -7,6 +7,11 @@ while r == 'oui':
         print('Saisir les 2 entiers positifs.')
         a = int(input('saisir A : '))
         b = int(input('saisir B : '))
-    print(a, 'multiplier par ',b,'= ',a*b)
-    r =input("Voulez-vous recommencer ? Saisir 'oui' ou 'non' : ")
+    p=0
+    sb=b
+    while b!=0 :
+        p=p+a
+        b=b-1
+    print(a, 'multiplier par ',sb,'= ',a*sb)
+    r =input("Voulez-vous recommencer ? (oui/non) : ")
 print('Au revoir.')
